@@ -6,7 +6,7 @@
 !! *font: FreeMono:style=Regular:size=11
 !!*.font: Inconsolata LGC:style=Regular:size=11
 !!*.font: ComicMono:style=Normal:size=11
-*.font: JetBrains Mono:style=Regular:size=9
+*.font: JetBrains Mono:style=Regular:size=10
 dmenu.font: JetBrains Mono:style=Regular:size=14
 dmenu.foreground: #deaf69
 !! *.fontalt0: Noto Color Emoji:style=Regular
