@@ -6,14 +6,16 @@
 !! *font: FreeMono:style=Regular:size=11
 !!*.font: Inconsolata LGC:style=Regular:size=11
 !!*.font: ComicMono:style=Normal:size=11
-*.font: JetBrains Mono:style=Regular:size=10
+!! *.font: JetBrains Mono:style=Regular:size=10
+*.font: JetBrainsMono Nerd Font:pixelsize=11:antialias=true:autohint=true
 dmenu.font: JetBrains Mono:style=Regular:size=14
 dmenu.foreground: #deaf69
 !! *.fontalt0: Noto Color Emoji:style=Regular
-*.fontalt0: icomoon:pixelsize=16:style=Regular
-!! *.fontalt0: JoyPixels:pixelsize=10:antialias=true:autohint=true
+!! *.fontalt0: icomoon:pixelsize=16:style=Regular
+*.fontalt0: JoyPixels:pixelsize=10:antialias=true:autohint=true
+!! *.fontalt0: xft:Devicons:pixelsize=12:antialias=true:hinting=true
 !! *font: Nimbus Mono
-rofi.font: mononoki 11
+rofi.font: JetBrains Mono:style=Regular:size=10
 
 
 ! exported from https://terminal.sexy
@@ -120,8 +122,19 @@ st.color257:		#ebdbb2
 /* st.background:  */ 
 /* st.foreground:  */ 
 /* st.cursorColor: */ 
-st.fontalt0: FontAwesome:pixelsize=12:antialias=true:autohint=true
-st.termname:     st-256color
+
+
+st.font: JetBrainsMono Nerd Font:pixelsize=11:antialias=true:autohint=true
+/* st.font: JetBrains Mono:style=Regular:size=10 */
+/* st.font: xft:JetBrains Mono:regular:pixelsize=12:antialias=true:hinting=true*/
+
+/* st.font: xft:JetBrainsMono Nerd Font:regular:pixelsize=12:antialias=true:hinting=true */
+
+st.fontalt0: JoyPixels:pixelsize=12:antialias=true:autohint=true
+/* st.fontalt0: xft:Devicons:pixelsize=12:antialias=true:hinting=true */
+
+/* JetBrains:pixelsize=12:antialias=true:autohint=true */
+
 st.shell:        /bin/sh
 st.blinktimeout: 800
 st.bellvolume:   0
