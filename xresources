@@ -7,7 +7,7 @@
 !!*.font: Inconsolata LGC:style=Regular:size=11
 !!*.font: ComicMono:style=Normal:size=11
 !! *.font: JetBrains Mono:style=Regular:size=10
-*.font: JetBrainsMono Nerd Font:pixelsize=11:antialias=true:autohint=true
+*.font: JetBrainsMono NF:pixelsize=11:antialias=true:autohint=true
 dmenu.font: JetBrains Mono:style=Regular:size=14
 dmenu.foreground: #deaf69
 !! *.fontalt0: Noto Color Emoji:style=Regular
@@ -124,7 +124,7 @@ st.color257:		#ebdbb2
 /* st.cursorColor: */ 
 
 
-st.font: JetBrainsMono Nerd Font:pixelsize=11:antialias=true:autohint=true
+st.font: JetBrainsMono NF:pixelsize=11:antialias=true:autohint=true
 /* st.font: JetBrains Mono:style=Regular:size=10 */
 /* st.font: xft:JetBrains Mono:regular:pixelsize=12:antialias=true:hinting=true*/
 
