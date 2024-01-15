@@ -124,7 +124,7 @@ st.color257:		#ebdbb2
 /* st.cursorColor: */ 
 
 
-st.font: JetBrainsMono NF:pixelsize=11:antialias=true:autohint=true
+st.font: JetBrainsMono NF:pixelsize=14:antialias=true:autohint=true
 /* st.font: JetBrains Mono:style=Regular:size=10 */
 /* st.font: xft:JetBrains Mono:regular:pixelsize=12:antialias=true:hinting=true*/
 
