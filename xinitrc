@@ -12,6 +12,13 @@ if [ -z "$XDG_RUNTIME_DIR" ]; then
 	exit 6
 fi
 
+if [ -d /etc/X11/xinit/xinitrc.d ] ; then
+ for f in /etc/X11/xinit/xinitrc.d/?*.sh ; do
+  [ -x "$f" ] && . "$f"
+ done
+ unset f
+fi
+
 _DISPLAY="$(systemd-escape -- "$DISPLAY")"
 trap "rm -f $(printf '%q' "${XDG_RUNTIME_DIR}/x11-wm@${_DISPLAY}")" EXIT
 mkfifo "${XDG_RUNTIME_DIR}/x11-wm@${_DISPLAY}"
