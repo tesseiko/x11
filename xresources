@@ -119,7 +119,7 @@ st.color257:		#ebdbb2
 /* st.color14:		#00c008   */ 
 /* st.color15:		#ebdbb2   */ 
 
-/* st.background:  */ 
+st.background:  #000000 
 /* st.foreground:  */ 
 /* st.cursorColor: */ 
 
@@ -142,5 +142,5 @@ st.tabspaces:    4
 st.borderpx:     2
 st.cwscale:      1.1
 st.chscale:      1.2
-st.alpha:		 0.97     
+st.alpha:		 0.9     
 /* st.ximspot_update_interval: */
