@@ -7,7 +7,7 @@
 !!*.font: Inconsolata LGC:style=Regular:size=11
 !!*.font: ComicMono:style=Normal:size=11
 !! *.font: JetBrains Mono:style=Regular:size=10
-*.font: JetBrainsMono NF:pixelsize=11:antialias=true:autohint=true
+*.font: JetBrainsMono NF:pixelsize=14:antialias=true:autohint=true
 dmenu.font: JetBrains Mono:style=Regular:size=14
 dmenu.foreground: #deaf69
 !! *.fontalt0: Noto Color Emoji:style=Regular
@@ -140,7 +140,7 @@ st.blinktimeout: 800
 st.bellvolume:   0
 st.tabspaces:    4
 st.borderpx:     2
-st.cwscale:      1.0
-st.chscale:      1.0
+st.cwscale:      1.1
+st.chscale:      1.2
 st.alpha:		 0.97     
 /* st.ximspot_update_interval: */
